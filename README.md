@@ -17,6 +17,21 @@ A clean, modern theme for Home Assistant. Flat cards with thin borders instead o
 5. Restart Home Assistant, or run the `frontend.reload_themes` action if the frontend block was already there.
 6. Pick **modern** under your Profile > Theme.
 
+## Colours
+
+Pick the accent colour by choosing the matching theme under Profile > Theme:
+
+| Theme | Accent |
+| --- | --- |
+| `modern` | Blue |
+| `modern-teal` | Teal |
+| `modern-green` | Green |
+| `modern-purple` | Purple |
+| `modern-orange` | Orange |
+| `modern-pink` | Pink |
+
+Every variant has light and dark modes.
+
 ## Updating
 
 When a new release is published, HACS will show an update. Download it, then run `frontend.reload_themes`.
