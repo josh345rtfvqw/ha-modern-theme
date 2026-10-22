@@ -1,0 +1,81 @@
+modern:
+  # Shared across light and dark
+  ha-card-border-radius: "16px"
+  ha-card-border-width: "1px"
+  ha-card-box-shadow: "none"
+  ha-dialog-border-radius: "20px"
+  ha-font-family-body: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+  paper-font-common-base_-_font-family: "var(--ha-font-family-body)"
+  mdc-shape-small: "10px"
+  mdc-shape-medium: "14px"
+
+  modes:
+    light:
+      primary-color: "#3B6EF5"
+      accent-color: "#3B6EF5"
+      mdc-theme-primary: "var(--primary-color)"
+
+      primary-background-color: "#F4F5F7"
+      secondary-background-color: "#ECEEF1"
+      card-background-color: "#FFFFFF"
+      ha-card-background: "#FFFFFF"
+      ha-card-border-color: "#E3E6EA"
+      divider-color: "#E3E6EA"
+
+      primary-text-color: "#14171C"
+      secondary-text-color: "#626A75"
+      disabled-text-color: "#A8AEB6"
+
+      app-header-background-color: "#F4F5F7"
+      app-header-text-color: "#14171C"
+      app-header-border-bottom: "1px solid #E3E6EA"
+
+      sidebar-background-color: "#FFFFFF"
+      sidebar-text-color: "#3A4049"
+      sidebar-icon-color: "#626A75"
+      sidebar-selected-text-color: "#3B6EF5"
+      sidebar-selected-icon-color: "#3B6EF5"
+
+      state-icon-color: "#626A75"
+      state-icon-active-color: "#F2A93B"
+      paper-item-icon-color: "#626A75"
+      paper-item-icon-active-color: "#F2A93B"
+
+      switch-checked-color: "#3B6EF5"
+      switch-checked-button-color: "#FFFFFF"
+      switch-checked-track-color: "#3B6EF5"
+
+    dark:
+      primary-color: "#6E93FF"
+      accent-color: "#6E93FF"
+      mdc-theme-primary: "var(--primary-color)"
+
+      primary-background-color: "#0F1115"
+      secondary-background-color: "#16191E"
+      card-background-color: "#181B21"
+      ha-card-background: "#181B21"
+      ha-card-border-color: "#252932"
+      divider-color: "#252932"
+
+      primary-text-color: "#ECEEF2"
+      secondary-text-color: "#9AA1AC"
+      disabled-text-color: "#5B616B"
+
+      app-header-background-color: "#0F1115"
+      app-header-text-color: "#ECEEF2"
+      app-header-border-bottom: "1px solid #252932"
+
+      sidebar-background-color: "#121418"
+      sidebar-text-color: "#C4C9D1"
+      sidebar-icon-color: "#9AA1AC"
+      sidebar-selected-text-color: "#6E93FF"
+      sidebar-selected-icon-color: "#6E93FF"
+
+      state-icon-color: "#9AA1AC"
+      state-icon-active-color: "#F5B14C"
+      paper-item-icon-color: "#9AA1AC"
+      paper-item-icon-active-color: "#F5B14C"
+
+      switch-checked-color: "#6E93FF"
+      switch-checked-button-color: "#FFFFFF"
+      switch-checked-track-color: "#6E93FF"
